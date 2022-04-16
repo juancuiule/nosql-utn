@@ -1,0 +1,23 @@
+multi
+set comment:1:1:1 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+hincrby film:1 comments 1
+pfadd films_with_comment 1
+lpush film_last_comments_users:1 1
+ltrim film_last_comments_users:1 0 2
+exec
+
+multi
+set comment:2:1:2 "Otro comentario"
+hincrby film:1 comments 1
+pfadd films_with_comment 1
+lpush film_last_comments_users:1 2
+ltrim film_last_comments_users:1 0 2
+exec
+
+multi
+set comment:3:2:2 "Otro comentario del user 2 en otra película"
+hincrby film:2 comments 1
+pfadd films_with_comment 2
+lpush film_last_comments_users:2 2
+ltrim film_last_comments_users:2 0 2
+exec

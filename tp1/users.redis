@@ -1,0 +1,14 @@
+multi
+hmset user:1 firstName "Martín" lastName "Acerboni" email "macerboni@frba.utn.edu.ar" password "w%A^jFnyGpC8"
+sadd users_emails "macerboni@frba.utn.edu.ar"
+exec
+
+multi
+hmset user:2 firstName "Juan Ignacio" lastName "Cuiule" email "juancuiule@frba.utn.edu.ar" password "$ZCpX2rMkH$K"
+sadd users_emails "juancuiule@frba.utn.edu.ar"
+exec
+
+multi
+hmset user:3 firstName "Nicolás" lastName "Melnyk" email "nmelnyk@frba.utn.edu.ar" password "Ah95qYcn7D9&"
+sadd users_emails "nmelnyk@frba.utn.edu.ar"
+exec

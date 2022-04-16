@@ -1,0 +1,104 @@
+multi
+hmset film:1 name "Titanic" director "James Cameron" releaseYear 1997 comments 0
+zadd films_by_release_year 1997 "Titanic"
+exec
+
+multi
+hmset film:2 name "The Shawshank Redemption" director "Frank Darabont" releaseYear 1994 comments 0
+zadd films_by_release_year 1994 "The Shawshank Redemption"
+exec
+
+multi
+hmset film:3 name "The Godfather" director "Francis Ford Coppola" releaseYear 1972 comments 0
+zadd films_by_release_year 1972 "The Godfather"
+exec
+
+multi
+hmset film:4 name "The Dark Knight" director "Christopher Nolan" releaseYear 2008 comments 0
+zadd films_by_release_year 2008 "The Dark Knight"
+exec
+
+multi
+hmset film:5 name "The Godfather: Part II" director "Francis Ford Coppola" releaseYear 1974 comments 0
+zadd films_by_release_year 1974 "The Godfather: Part II"
+exec
+
+multi
+hmset film:6 name "The Lord of the Rings: The Return of the King" director "Peter Jackson" releaseYear 2003 comments 0
+zadd films_by_release_year 2003 "The Lord of the Rings: The Return of the King"
+exec
+
+multi
+hmset film:7 name "Pulp Fiction" director "Quentin Tarantino" releaseYear 1994 comments 0
+zadd films_by_release_year 1994 "Pulp Fiction"
+exec
+
+multi
+hmset film:8 name "The Lord of the Rings: The Fellowship of the Ring" director "Peter Jackson" releaseYear 2001 comments 0
+zadd films_by_release_year 2001 "The Lord of the Rings: The Fellowship of the Ring"
+exec
+
+multi
+hmset film:9 name "The Good, the Bad and the Ugly" director "Sergio Leone" releaseYear 1966 comments 0
+zadd films_by_release_year 1966 "The Good, the Bad and the Ugly"
+exec
+
+multi
+hmset film:10 name "Forrest Gump" director "Robert Zemeckis" releaseYear 1994 comments 0
+zadd films_by_release_year 1994 "Forrest Gump"
+exec
+
+multi
+hmset film:11 name "Fight Club" director "David Fincher" releaseYear 1999 comments 0
+zadd films_by_release_year 1999 "Fight Club"
+exec
+
+multi
+hmset film:12 name "Inception" director "Christopher Nolan" releaseYear 2010 comments 0
+zadd films_by_release_year 2010 "Inception"
+exec
+
+multi
+hmset film:13 name "The Matrix" director "Lana Wachowski" releaseYear 1999 comments 0
+zadd films_by_release_year 1999 "The Matrix"
+exec
+
+multi
+hmset film:14 name "The Lord of the Rings: The Two Towers" director "Peter Jackson" releaseYear 2002 comments 0
+zadd films_by_release_year 2002 "The Lord of the Rings: The Two Towers"
+exec
+
+multi
+hmset film:15 name "The Dark Knight Rises" director "Christopher Nolan" releaseYear 2012 comments 0
+zadd films_by_release_year 2012 "The Dark Knight Rises"
+exec
+
+multi
+hmset film:16 name "Star Wars: Episode IV - A New Hope" director "George Lucas" releaseYear 1977 comments 0
+zadd films_by_release_year 1977 "Star Wars: Episode IV - A New Hope"
+exec
+
+multi
+hmset film:17 name "Star Wars: Episode V - The Empire Strikes Back" director "Irvin Kershner" releaseYear 1980 comments 0
+zadd films_by_release_year 1980 "Star Wars: Episode V - The Empire Strikes Back"
+exec
+
+multi
+hmset film:18 name "Star Wars: Episode VI - Return of the Jedi" director "Richard Marquand" releaseYear 1983 comments 0
+zadd films_by_release_year 1983 "Star Wars: Episode VI - Return of the Jedi"
+exec
+
+multi
+hmset film:19 name "Star Wars: Episode I - The Phantom Menace" director "George Lucas" releaseYear 1999 comments 0
+zadd films_by_release_year 1999 "Star Wars: Episode I - The Phantom Menace"
+exec
+
+multi
+hmset film:20 name "Star Wars: Episode III - Revenge of the Sith" director "George Lucas" releaseYear 2005 comments 0
+zadd films_by_release_year 2005 "Star Wars: Episode III - Revenge of the Sith"
+exec
+
+multi
+hmset film:21 name "Star Wars: Episode II - Attack of the Clones" director "George Lucas" releaseYear 2002 comments 0
+zadd films_by_release_year 2002 "Star Wars: Episode II - Attack of the Clones"
+exec
